@@ -2,6 +2,10 @@ Rails.application.routes.draw do
   resources :roles
   get 'pages/index'
 
+  get 'students/index'
+
+  get 'teachers/index'
+
   
   devise_for :users
   resources :teachers
